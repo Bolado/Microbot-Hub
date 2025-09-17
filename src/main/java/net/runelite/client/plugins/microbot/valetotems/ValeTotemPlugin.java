@@ -61,7 +61,7 @@ public class ValeTotemPlugin extends Plugin {
         if (overlayManager != null && valeTotemOverlay != null) {
             overlayManager.remove(valeTotemOverlay);
         }
-        log.info("Vale Totems plugin stopped");
+        log.info("Vale Totems plugin CRASHED");
     }
 
     @Subscribe
